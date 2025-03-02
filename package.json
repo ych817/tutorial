@@ -1,0 +1,24 @@
+{
+  "name": "tutorial",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/preact": "^3.5.2",
+    "@astrojs/rss": "^4.0.7",
+    "astro": "^4.15.2",
+    "astro-expressive-code": "^0.36.1",
+    "mathjax-full": "^3.2.2",
+    "preact": "^10.23.2"
+  },
+  "devDependencies": {
+    "rehype-mathjax": "^6.0.0",
+    "remark-math": "^6.0.0"
+  }
+}
