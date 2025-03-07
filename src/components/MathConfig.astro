@@ -1,28 +1,34 @@
 ---
-import remarkMath from 'remark-math';
-import rehypeMathJax from 'rehype-mathjax/svg';
+// import remarkMath from "remark-math";
+// import rehypeMathJax from "rehype-mathjax/svg";
 ---
 
+<script
+  type="text/javascript"
+  id="MathJax-script"
+  async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3.1.4/es5/tex-svg.js"
+></script>
 <script is:inline>
   MathJax = {
     startup: {
       ready: () => {
-        console.log('MathJax is ready');
+        console.log("MathJax is ready");
         MathJax.startup.defaultReady();
       }
     },
     tex: {
       inlineMath: [
-        ["$", "$"],
+        // ["$", "$"],
         ["\\(", "\\)"],
       ],
       displayMath: [
-        ["$$", "$$"],
+        // ["$$","$$"],
         ["\\[", "\\]"],
       ],
       packages: { "[+]": ["xypic"] },
     },
-    loader: {
+    Loader: {
       load: ["[custom]/xypic.js"],
       paths: {
         custom: "https://cdn.jsdelivr.net/gh/sonoisa/XyJax-v3@3.0.1/build/",

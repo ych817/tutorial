@@ -1,15 +1,15 @@
 import { defineConfig } from 'astro/config';
 import preact from "@astrojs/preact";
 import expressiveCode from 'astro-expressive-code';
-import remarkMath from 'remark-math';
-import rehypeMathJax from 'rehype-mathjax/svg';
+// import remarkMath from 'remark-math';
+// import rehypeMathJax from 'rehype-mathjax/svg';
 
 // https://astro.build/config
 export default defineConfig({
   site: "https://example.com",
   markdown: {
-    remarkPlugins: [remarkMath],
-    rehypePlugins: [rehypeMathJax]
+    // remarkPlugins: [remarkMath],
+    // rehypePlugins: [rehypeMathJax]
   },
   integrations: [
     // astroExpressiveCode({

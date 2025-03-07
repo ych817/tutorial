@@ -28,19 +28,16 @@ tags: ["astro", "learning in public", "setbacks", "community"]
 </button>
 ```
 
-Math Equation and text : $\begin{array}{|l|l|}\hline 
+Math Equation and text : \\(\begin{array}{|l|l|}\hline 
 \cellcolor{LightGreen}\text{Hello} & \text{World}\\\hline 
-\end{array}$ , 
+\end{array}\\) , 
 
 Greetings ! 
 
-$$\begin{prooftree}
-\AXC{$a:A$}
-\AXC{$b:B$}
-\BIC{$c:C$}
-\end{prooftree}$$
 
-$\xymatrix{
-  A \ar[r]^f \ar[d]_g & B \ar[d]^h \\
-  C \ar[r]_j & D
-}$
+\\[
+\xymatrix{
+  A \ar[r]^f \ar[d]\_g & B \ar[d]^h \\
+  C \ar[r]\_j & D
+}
+\\]

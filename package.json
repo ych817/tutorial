@@ -10,10 +10,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/preact": "^3.5.2",
+    "@astrojs/preact": "^4.0.5",
     "@astrojs/rss": "^4.0.7",
-    "astro": "^4.15.2",
-    "astro-expressive-code": "^0.36.1",
+    "astro": "^5.4.2",
+    "astro-expressive-code": "^0.40.2",
     "mathjax-full": "^3.2.2",
     "preact": "^10.23.2"
   },
